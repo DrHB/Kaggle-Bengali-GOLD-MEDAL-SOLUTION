@@ -1,7 +1,7 @@
 # Kaggle-Bengali
 ## Setup
 
-### 17 JAN 2019 9: 40
+### 17 JAN 2019 9:40 AM
 
 Images: Preprocessing seems to make model stuck around local and lb `0.969`
         If we dont preprocess images atleads to higher local score abd lb sc
