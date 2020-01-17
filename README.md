@@ -54,10 +54,8 @@ LB SCORE:        0.9745 (SUB_NAME: EXP_80_SERESNET101_1CH(version 23/23))
       (9): Linear(in_features=512, out_features=n, bias=True)
  ```
 
-Comments: Pretrained model trained just OLD DATA gives pretty good results
-
-
 Conclusion:    Defenetly Imporvement of the model
+
 ```
 Thing to try:  - Loss without weights
                - GeM polling layer 
