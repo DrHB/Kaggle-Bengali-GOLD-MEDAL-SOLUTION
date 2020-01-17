@@ -57,7 +57,10 @@ Comments: Pretrained model trained just OLD DATA gives pretty good results
 
 
 Conclusion:    Defenetly Imporvement of the model
+```
 Thing to try:  - Loss without weights
                - GeM polling layer 
                - Full Mish Model 
+                          
+ ```
                
