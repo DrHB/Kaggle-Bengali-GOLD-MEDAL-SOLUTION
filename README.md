@@ -2,7 +2,7 @@
 ## Setup
 
 ### 17 JAN 2019 9: 40
-### 200
+
 Images: Preprocessing seems to make model stuck around local and lb `0.969`
         If we dont preprocess images atleads to higher local score abd lb sc
 ### EXP_200.ipynb
@@ -14,6 +14,7 @@ VALID:           5 FOLD CV (FOLD=2)
 TFMS:            transform(get_transforms(do_flip=False,max_warp=0.2, max_zoom=1.1, max_rotate=5, 
                  xtra_tfms=[cutout(n_holes=(10,25), length=(10, 30), p=.5)]), size=(SZ, SZ), 
                  resize_method=ResizeMethod.SQUISH, padding_mode='reflection')
+MixUP:           True
 
 PRETRAINED:      IMAGENET
 NORMALIZE:       ([0.0692], [0.2051])
@@ -31,7 +32,8 @@ LB SCORE:        0.9745 (SUB_NAME: EXP_80_SERESNET101_1CH(version 23/23))
 
 ```
 
-## TAIL
+## Model Structure
+`Mish` only for tails (body was with `nn.ReLU()`)
 9 - out_features depending on 3 classes [168, 11, 7]
 ```
   (head1): Head(
@@ -52,3 +54,10 @@ LB SCORE:        0.9745 (SUB_NAME: EXP_80_SERESNET101_1CH(version 23/23))
  ```
 
 Comments: Pretrained model trained just OLD DATA gives pretty good results
+
+
+Conclusion:    Defenetly Imporvement of the model
+Thing to try:  - Loss without weights
+               - GeM polling layer 
+               - Full Mish Model 
+               
