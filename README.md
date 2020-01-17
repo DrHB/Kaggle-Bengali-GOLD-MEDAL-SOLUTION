@@ -60,7 +60,6 @@ Conclusion:    Defenetly Imporvement of the model
 ```
 Thing to try:  - Loss without weights
                - GeM polling layer 
-               - Full Mish Model 
-                          
+               - Full Mish Model                        
  ```
                
