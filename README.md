@@ -34,7 +34,7 @@ LB SCORE:        0.9745 (SUB_NAME: EXP_80_SERESNET101_1CH(version 23/23))
 
 ## Model Structure
 `Mish` only for tails (body was with `nn.ReLU()`)<br/>
-n - on the last linear layers `out_feature`s depending on 3 classes [168, 11, 7]
+`n` - on the last linear layers `out_feature`s depending on 3 classes [168, 11, 7]
 
 ```
   (head1): Head(
