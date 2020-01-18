@@ -91,11 +91,11 @@ MODEL WEIGHTS:   [EXP_200_RESNEX_1CH_MISH_SIMPLE_ORIG_LOSS_GEM_0_0.pth]
 MODEL TRN_LOSS:  1.333434
 MODEL VAL_LOSS:  0.171532
 ACCURACY ALL  :  0.98058
-LB SCORE:        
+LB SCORE:        EXP_200(version 26/27)
 ```
 | grapheme_root| vowel_diacritic| consonant_diacritic | CV            | LB            |
 |    :---:     |     :---:      |    :---:            |    :---:      |    :---:      |
-|0.969665 | 0.992616|0.990397  | 0.980586 | |
+|0.969665 | 0.992616|0.990397  | 0.980586 |0.9701 |
 
 
 
