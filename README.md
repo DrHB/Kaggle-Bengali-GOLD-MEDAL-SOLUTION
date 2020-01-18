@@ -100,7 +100,7 @@ LB SCORE:
 
 
 ## Model Structure
-`Mish` only for tails (body was with `nn.ReLU()`)<br/>
+`Mish` for everything, + 'GeM pooling layer' <br/>
 `n` - on the last linear layers `out_feature`s depending on 3 classes [168, 11, 7]
 
 ```
