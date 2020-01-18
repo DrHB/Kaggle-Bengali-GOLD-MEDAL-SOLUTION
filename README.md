@@ -31,10 +31,13 @@ ACCURACY ALL  :  0.982190
 LB SCORE:        0.9745 (SUB_NAME: EXP_80_SERESNET101_1CH(version 23/23))
 
 
+```
+
 | grapheme_root| vowel_diacritic| consonant_diacritic | CV            | LB            |
 |    :---:     |     :---:      |    :---:            |    :---:      |    :---:      |
 |0.976273 | 0.990575| 0.985638  | 0.982190 | 0.9745 |
-```
+
+
 
 ## Model Structure
 `Mish` only for tails (body was with `nn.ReLU()`)<br/>
