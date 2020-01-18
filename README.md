@@ -68,10 +68,7 @@ Thing to try:  - Loss without weights
                
                
 ### 18 JAN 2019 12:17 AM
-
-
-### EXP_200.ipynb
-### EXP_200.ipynb
+### EXP_200_20.ipynb
 ```
 MODEL:           se_resnext50_32x4d
 BS:              1024
