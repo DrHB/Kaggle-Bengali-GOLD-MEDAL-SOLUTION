@@ -127,30 +127,9 @@ Thing to try:  - cutmix
 Images: I have implemented fastai to work with cutmix 
 
 ### EXP_200_CUTMIX.ipynb
-```
-MODEL:           se_resnext50_32x4d
-BS:              1024
-SZ:              128 (1 CH)
-VALID:           5 FOLD CV (FOLD=2)
-TFMS:            transform(get_transforms(do_flip=False,max_warp=0.2, max_zoom=1.1, max_rotate=5, 
-                 xtra_tfms=[cutout(n_holes=(10,25), length=(10, 30), p=.5)]), size=(SZ, SZ), 
-                 resize_method=ResizeMethod.SQUISH, padding_mode='reflection')
-MixUP:           True
 
-PRETRAINED:      IMAGENET
-NORMALIZE:       ([0.0692], [0.2051])
+same as `17 JAN 2019 9:40 AM, EXP_200.ipynb` just with cutmix 
 
-LOSS:            WEIGHTED [0.7, 0.1, 0.2]
-TRAINING:        OPT: Over9000
-                 fit_one_cycle(100, lr, wd=1e-2,  pct_start=0.0,  div_factor=100)
-                 
-NOTEBOOK:        EXP_200 
-MODEL WEIGHTS:   [EXP_200_RESNEX_1CH_MISH_SIMPLE_ORIG_2_2.pth]
-MODEL TRN_LOSS:  0.597414
-MODEL VAL_LOSS:  0.071885
-ACCURACY ALL  :  0.982190
-LB SCORE:        0.9745 (SUB_NAME: EXP_80_SERESNET101_1CH(version 23/23))
-```
 | grapheme_root| vowel_diacritic| consonant_diacritic | CV            | LB            |
 |    :---:     |     :---:      |    :---:            |    :---:      |    :---:      |
 |0.976273 | 0.990575| 0.985638  | 0.982190 | 0.9745 |
@@ -158,3 +137,7 @@ LB SCORE:        0.9745 (SUB_NAME: EXP_80_SERESNET101_1CH(version 23/23))
 
 ## Model Structure
 same as `17 JAN 2019 9:40 AM, EXP_200.ipynb`
+
+ ```
+Thing to try:  - cutmix, with simple pool layers and no non linearity 
+ ```
