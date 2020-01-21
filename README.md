@@ -155,3 +155,4 @@ Thing to try:  - cutmix, with simple pool layers and no non linearity
  SZ = 152
  POOL = Averge 
  no Wrap 
+ removed squish from dataloader
