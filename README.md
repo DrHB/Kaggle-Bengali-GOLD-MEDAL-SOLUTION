@@ -149,3 +149,9 @@ same as `17 JAN 2019 9:40 AM, EXP_200.ipynb`
  ```
 Thing to try:  - cutmix, with simple pool layers and no non linearity 
  ```
+ 
+ ### EXP_200_CUTMIX_CUTOUT_STRECHING.ipynb
+ 
+ SZ = 152
+ POOL = Averge 
+ no Wrap 
