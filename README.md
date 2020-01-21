@@ -132,7 +132,7 @@ same as `17 JAN 2019 9:40 AM, EXP_200.ipynb` just with cutmix
 
 | grapheme_root| vowel_diacritic| consonant_diacritic | CV            | LB            |
 |    :---:     |     :---:      |    :---:            |    :---:      |    :---:      |
-|0.976273 | 0.990575| 0.985638  | 0.982190 | 0.9745 |
+|0.977921 | 0.990718| 0.985638  | 0.983230| 0.950 |
 
 
 ## Model Structure
