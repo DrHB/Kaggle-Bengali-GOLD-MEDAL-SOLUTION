@@ -1,4 +1,12 @@
 # Kaggle-Bengali
+|EXP| grapheme_root| vowel_diacritic| consonant_diacritic | CV            | LB            |
+|:---:|    :---:     |     :---:      |    :---:            |    :---:      |    :---:      |
+|EXP_200|0.976273 | 0.990575| 0.985638  | 0.982190 | 0.9745 |
+|EXP_200_20|0.969665 | 0.992616|0.990397  | 0.980586 |0.9701 |
+|EXP_200_CUTMIX|0.977921 | 0.990718| 0.985638  | 0.983230| 0.950 |
+
+
+
 ## Setup
 
 ### 17 JAN 2019 9:40 AM
@@ -132,7 +140,7 @@ same as `17 JAN 2019 9:40 AM, EXP_200.ipynb` just with cutmix
 
 | grapheme_root| vowel_diacritic| consonant_diacritic | CV            | LB            |
 |    :---:     |     :---:      |    :---:            |    :---:      |    :---:      |
-|0.976273 | 0.990575| 0.985638  | 0.982190 | 0.9745 |
+|0.977921 | 0.990718| 0.985638  | 0.983230| 0.950 |
 
 
 ## Model Structure
@@ -141,3 +149,10 @@ same as `17 JAN 2019 9:40 AM, EXP_200.ipynb`
  ```
 Thing to try:  - cutmix, with simple pool layers and no non linearity 
  ```
+ 
+ ### EXP_200_CUTMIX_CUTOUT_STRECHING.ipynb
+ 
+ SZ = 152
+ POOL = Averge 
+ no Wrap 
+ removed squish from dataloader
