@@ -1,3 +1,7 @@
+##kagle:      https://www.kaggle.com/c/bengaliai-cv19/leaderboard
+##write up:   https://www.kaggle.com/c/bengaliai-cv19/discussion/135960
+
+
 # Kaggle-Bengali
 |EXP| grapheme_root| vowel_diacritic| consonant_diacritic | CV            | LB            |
 |:---:|    :---:     |     :---:      |    :---:            |    :---:      |    :---:      |
