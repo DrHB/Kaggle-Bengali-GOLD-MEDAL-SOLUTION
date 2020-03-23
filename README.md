@@ -1,5 +1,7 @@
-##kagle:      https://www.kaggle.com/c/bengaliai-cv19/leaderboard
-##write up:   https://www.kaggle.com/c/bengaliai-cv19/discussion/135960
+## kagle
+https://www.kaggle.com/c/bengaliai-cv19/leaderboard
+## write up
+https://www.kaggle.com/c/bengaliai-cv19/discussion/135960
 
 
 # Kaggle-Bengali
